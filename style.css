@@ -1,5 +1,11 @@
 body {
   padding-top: 7em;
+  background-color: #202020!important;
+  color: white!important;
+}
+
+.inline {
+  display: inline-block;
 }
 
 ul li {
@@ -11,4 +17,30 @@ li a {
   color: black;
   padding: 1em;
   font-size: 1.5em;
+  color: white;
+}
+
+li a:hover {
+  color: white;
+}
+
+#home_page {
+  background-image: image('images/home_page.jpg')!important;
+}
+
+.home_page_inner {
+  height: 900px;
+}
+
+.home_page_inner img {
+  margin-top: 3em;
+}
+
+.home_icons {
+  margin-left: 16em;
+}
+
+.home_icons i {
+  display: block;
+  padding: .5em;
 }
