@@ -1,4 +1,14 @@
-.nav li {
-  margin: 1em 2em;
-  font-size: 1.3em;
+body {
+  padding-top: 7em;
+}
+
+ul li {
+  display: inline-block;
+  margin-top: 2em;
+}
+
+li a {
+  color: black;
+  padding: 1em;
+  font-size: 1.5em;
 }
