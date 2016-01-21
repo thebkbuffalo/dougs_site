@@ -34,23 +34,15 @@ li a:hover {
   color: white;
 }
 
-#index_body {
-
+.index_inner img {
+  margin-left: 1em;
 }
 
-.home_page_inner {
-  height: 900px;
+.index_icons {
+  /*margin-left: 7em;*/
 }
 
-.home_page_inner img {
-  margin-top: 3em;
-}
-
-.home_icons {
-  margin-left: 16em;
-}
-
-.home_icons i {
-  display: block;
-  padding: .5em;
+.index_icons i {
+  padding: 0 .5em;
+  font-size: 9em;
 }
