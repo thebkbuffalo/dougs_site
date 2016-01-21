@@ -1,7 +1,16 @@
 body {
-  padding-top: 7em;
-  background-color: #202020!important;
+  padding-top: 8em;
+  background: url('/images/home_page.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: white!important;
+}
+
+nav {
+  border-bottom: solid 2px white;
+  background-color: rgba(43,43,43,.75)!important;
 }
 
 .inline {
@@ -10,7 +19,8 @@ body {
 
 ul li {
   display: inline-block;
-  margin-top: 2em;
+  margin: 1.7em 0;
+  font-size:1.2em;
 }
 
 li a {
@@ -24,8 +34,8 @@ li a:hover {
   color: white;
 }
 
-#home_page {
-  background-image: image('images/home_page.jpg')!important;
+#index_body {
+
 }
 
 .home_page_inner {
