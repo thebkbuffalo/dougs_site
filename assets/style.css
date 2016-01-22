@@ -23,6 +23,10 @@ nav {
   font-family: 'Poiret One', cursive;
 }
 
+i {
+  color: white;
+}
+
 .inline {
   display: inline-block;
 }
@@ -97,7 +101,15 @@ li a:hover {
 }
 
 .production_inner {
-  margin: 2em;
+  margin: 2em 10em;
+}
+
+.soundclouds a {
+  color: white;
+}
+
+.soundclouds a:hover {
+  color: white;
 }
 
 .rare_percussion img {
