@@ -38,11 +38,8 @@ li a:hover {
   margin-left: 1em;
 }
 
-.index_icons {
-  /*margin-left: 7em;*/
-}
-
 .index_icons i {
   padding: 0 .5em;
-  font-size: 9em;
+  font-size: 9.5em;
+  color: white;
 }
