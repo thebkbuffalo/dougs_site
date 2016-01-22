@@ -1,4 +1,5 @@
 body {
+  font-family: 'Poiret One', cursive;
   padding-top: 8em;
   background: url('/images/home_page.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -8,9 +9,18 @@ body {
   color: white!important;
 }
 
+html {
+  font-family: 'Poiret One', cursive;
+}
+
+p, h1, h2, h3, h4, h5 {
+  font-family: 'Poiret One', cursive!important;
+}
+
 nav {
   border-bottom: solid 2px white;
   background-color: rgba(43,43,43,.75)!important;
+  font-family: 'Poiret One', cursive;
 }
 
 .inline {
@@ -52,6 +62,7 @@ li a:hover {
   margin: 3.3em 20em;
   background: rgba(45,45,45,.9);
   border-radius: 10px;
+  font-family: 'Poiret One', cursive;
 }
 
 .bio_inner {
@@ -83,4 +94,13 @@ li a:hover {
   display: inline-block;
   border-radius: 25px!important;
   padding: 2em;
+}
+
+.production_inner {
+  margin: 2em;
+}
+
+.rare_percussion img {
+  height: 700px;
+  width: 700px;
 }
