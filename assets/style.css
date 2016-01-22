@@ -59,6 +59,10 @@ li a:hover {
   cursor: pointer;
 }
 
+.main_content_section h3 {
+  padding-top: 1em;
+}
+
 .inactive {
   display: none;
 }
