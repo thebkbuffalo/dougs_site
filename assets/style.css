@@ -17,6 +17,10 @@ nav {
   display: inline-block;
 }
 
+.inactive {
+  display: none;
+}
+
 ul li {
   display: inline-block;
   margin: 1.7em 0;
@@ -63,6 +67,20 @@ li a:hover {
   padding-top: 1em;
 }
 
-.inactive {
-  display: none;
+.image_gallery {
+  margin: 2em 15em;
+}
+
+.images_box {
+  background: rgba(171,171,171,.9);
+  border-radius: 5px;
+  border: solid 1px black;
+}
+
+.image_gallery img {
+  max-height: 250px;
+  max-width: 250px;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 2em;
 }

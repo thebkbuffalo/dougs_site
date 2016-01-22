@@ -10,4 +10,6 @@ $(document).ready(function(){
     $('.image_gallery').removeClass('inactive');
     $('.main_content_section').addClass('inactive');
   });
+
+  $('.fancybox').fancybox();
 });
