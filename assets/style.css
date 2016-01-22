@@ -78,9 +78,9 @@ li a:hover {
 }
 
 .image_gallery img {
-  max-height: 250px;
-  max-width: 250px;
+  height: 325px;
+  width: 325px;
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 25px!important;
   padding: 2em;
 }
