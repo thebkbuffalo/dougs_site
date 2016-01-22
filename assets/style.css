@@ -43,3 +43,22 @@ li a:hover {
   font-size: 9.5em;
   color: white;
 }
+
+#bio {
+  margin: 3.3em 20em;
+  background: rgba(45,45,45,.9);
+  border-radius: 10px;
+}
+
+.bio_inner {
+  padding: 3em;
+}
+
+.media_nav h2 {
+  padding: 1em 2em;
+  cursor: pointer;
+}
+
+.inactive {
+  display: none;
+}
