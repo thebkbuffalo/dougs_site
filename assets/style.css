@@ -23,6 +23,10 @@ nav {
   font-family: 'Poiret One', cursive;
 }
 
+a {
+  color: white!important;
+}
+
 i {
   color: white;
 }
