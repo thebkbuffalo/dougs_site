@@ -57,12 +57,15 @@ li a:hover {
 }
 
 .index_inner img {
-  margin-left: 1em;
+  width: 800px;
+  height: 480px;
+  margin: 3em;
+  border-radius: 10px;
 }
 
 .index_icons i {
   padding: 0 .5em;
-  font-size: 9.5em;
+  font-size: 8em;
   color: white;
 }
 
