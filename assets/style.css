@@ -100,8 +100,8 @@ li a:hover {
 }
 
 .image_gallery img {
-  height: 325px;
-  width: 325px;
+  height: 275px;
+  width: 275px;
   display: inline-block;
   border-radius: 25px!important;
   padding: 2em;
