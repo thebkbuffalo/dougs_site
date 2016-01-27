@@ -6,21 +6,22 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: white!important;
+  color: #fcf5eb!important;
+  font-family: 'Droid Sans', sans-serif!important;
 }
 
 html {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Droid Sans', sans-serif!important;
 }
 
 p, h1, h2, h3, h4, h5 {
-  font-family: 'Poiret One', cursive!important;
+  font-family: 'Droid Sans', sans-serif!important;
 }
 
 nav {
   border-bottom: solid 2px white;
   background-color: rgba(43,43,43,.75)!important;
-  font-family: 'Poiret One', cursive;
+  font-family: 'Droid Sans', sans-serif!important;
 }
 
 a {
@@ -73,7 +74,6 @@ li a:hover {
   margin: 3.3em 20em;
   background: rgba(45,45,45,.9);
   border-radius: 10px;
-  font-family: 'Poiret One', cursive;
 }
 
 .bio_inner {
@@ -122,4 +122,14 @@ li a:hover {
 .rare_percussion img {
   height: 700px;
   width: 700px;
+}
+
+.contact {
+  background: rgba(45,45,45,.9);
+  border-radius: 10px;
+  margin: 5em 21em 0 21em;
+}
+
+.contact h1 {
+  padding: .4em 1.5em;
 }
