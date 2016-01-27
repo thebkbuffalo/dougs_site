@@ -80,9 +80,15 @@ li a:hover {
   padding: 3em;
 }
 
+
+
 .media_nav h2 {
+  margin: 1em 1em 0 1em;
   padding: 1em 2em;
   cursor: pointer;
+  background: rgba(45,45,45,.9);
+  border: 1px solid white;
+  border-radius: 20px;
 }
 
 .main_content_section h3 {
