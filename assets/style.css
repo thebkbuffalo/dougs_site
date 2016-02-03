@@ -57,6 +57,14 @@ li a:hover {
   color: white;
 }
 
+#index_page {
+  display: none;
+}
+
+.continue {
+  margin-top: 40%;
+}
+
 .index_inner img {
   width: 800px;
   height: 480px;
