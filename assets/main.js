@@ -9,6 +9,7 @@ $(document).ready(function(){
     $('.main_content_section').addClass('inactive');
   });
 
+  $('video').attr('loop','loop');
 
   $('.continue').on('click', function(){
     $('video').prop('muted', true);
