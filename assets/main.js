@@ -10,6 +10,10 @@ $(document).ready(function(){
   });
 
   $('video').attr('loop','loop');
+  // $('video').prop('muted', true);
+  // $('.fa-volume-up').on('click', function(){
+  //   $('video').prop('muted', false);
+  // });
 
   $('.continue').on('click', function(){
     $('video').prop('muted', true);
