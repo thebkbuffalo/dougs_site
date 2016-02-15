@@ -12,7 +12,7 @@ $(document).ready(function(){
 
   $('.continue').on('click', function(){
     $('video').prop('muted', true);
-    $('nav').show(300);
+    $('.home_page_nav').show(300);
     $('#hero').hide(500);
     $('#index_page').css('display', 'block');
   });
