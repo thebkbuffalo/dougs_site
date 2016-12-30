@@ -139,6 +139,10 @@ video#bgvid {
   border-radius: 20px;
 }
 
+.main_content_section {
+  margin-bottom: 6em;
+}
+
 .main_content_section h3 {
   padding-top: 1em;
 }
@@ -175,8 +179,8 @@ video#bgvid {
 }
 
 .rare_percussion img {
-  height: 700px;
-  width: 700px;
+  height: 500px;
+  width: 500px;
 }
 
 .contact {
