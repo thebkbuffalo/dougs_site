@@ -96,11 +96,27 @@ video#bgvid {
   border-radius: 10px;
 }
 
+.instagram_box {
+  text-align: center;
+  background: rgba(45,45,45,.95);
+  margin: 2em 11em 1em 11em;
+}
+
+#instafeed {
+  padding: 1em;
+}
+
+#instafeed img {
+  height: 200px;
+  width: 200px;
+  padding: 5px;
+}
+
 .index_icons i {
   padding: 0 .5em;
   font-size: 8em;
   color: white;
-  margin-top: 1.5em;
+  /*margin-top: 1.5em;*/
 }
 
 #bio {
@@ -112,8 +128,6 @@ video#bgvid {
 .bio_inner {
   padding: 3em;
 }
-
-
 
 .media_nav h2 {
   margin: 1em 1em 0 1em;
