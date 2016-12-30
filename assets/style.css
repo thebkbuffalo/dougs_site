@@ -100,6 +100,7 @@ video#bgvid {
   text-align: center;
   background: rgba(45,45,45,.95);
   margin: 2em 11em 1em 11em;
+  display: none;
 }
 
 #instafeed {

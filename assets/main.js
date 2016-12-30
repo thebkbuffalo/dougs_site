@@ -20,13 +20,14 @@ $(document).ready(function(){
     $('.home_page_nav').show(300);
     $('#hero').hide(500);
     $('#index_page').css('display', 'block');
+    $('.instagram_box').css('display', 'block');
   });
 
   var userFeed = new Instafeed({
     get: 'user',
     userId: '29353142',
     accessToken: '29353142.1677ed0.f2b1fb1a11f142828884dd71018f59da',
-    sortBy: 'most-recent',
+    sortBy: 'most-liked',
     template: '<a href="{{link}}" target="_blank"><img src="{{image}}"/></a>'
   });
   userFeed.run();
