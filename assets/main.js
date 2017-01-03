@@ -25,9 +25,9 @@ $(document).ready(function(){
 
   var userFeed = new Instafeed({
     get: 'user',
-    userId: '29353142',
-    accessToken: '29353142.1677ed0.f2b1fb1a11f142828884dd71018f59da',
-    sortBy: 'most-liked',
+    userId: '55651565',
+    accessToken: '55651565.1677ed0.8eb6774122e548709df4ce0f350d21ef',
+    sortBy: 'most-recent',
     template: '<a href="{{link}}" target="_blank"><img src="{{image}}"/></a>'
   });
   userFeed.run();
